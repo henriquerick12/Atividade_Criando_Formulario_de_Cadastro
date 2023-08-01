@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="atividade kenzie 01">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Criando Formulário de Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h2>Formulário de Cadastro</h2>
+            <div class="input-group">
+                <input type="text" required name="nome">
+                <label for="">Nome</label>
+                <i></i>
+            </div>
+            <div class="input-group">
+                <input type="email" required name="nome">
+                <label for="nome">E-mail</label>
+                <i></i>
+            </div>
+            <div class="input-group">
+                <label for="description">Descreva o motivo da participação</label>
+                <textarea name="description" id="" cols="30" rows="10"></textarea>
+                <i></i>
+            </div>
+            <div class="input-group">
+                <select>
+                    <option value="Modulo1">Escolher Módulo</option>
+                    <option value="Modulo1">Módulo 1</option>
+                    <option value="Modulo1">Módulo 2</option>
+                    <option value="Modulo1">Módulo 3</option>
+                </select>
+                <i></i>
+            </div>
+            <div class="input-group">
+                <input type="password" required name="password">
+                <label for="password">Digite uma Senha</label>
+                <i></i>
+            </div>
+            <div class="input-group">
+                <input type="password" required name="confirmed">
+                <label for="confirmed">Repita a senha</label>
+                <i></i>
+            </div>
+            <div class="input-group">
+                <div class="infos">
+                    <span for="info">Deseja receber Informações por E-mail?</span>
+                    <div class="input-radio">
+                        <input type="radio" name="opcao">
+                        <span for="info">Sim</span>
+                        <input type="radio" name="opcao">
+                        <span for="info">Não</span>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
